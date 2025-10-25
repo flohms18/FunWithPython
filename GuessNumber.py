@@ -5,7 +5,7 @@ def GuessNumber():
     RandomNumber = rd.randint(1,100)
     
     while True :
-        MyNumber = input("Pick a number: ")
+        MyNumber = int(input("Pick a number: "))
         if MyNumber > RandomNumber :
             print("Too High!")
             Count += 1
