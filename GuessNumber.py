@@ -11,12 +11,14 @@ def GuessNumber():
             Count += 1
             if Count == 3:
                 print("Game Over!")
+                print(f"The number to guess was {RandomNumber}")
                 break
         elif MyNumber < RandomNumber :
             print("Too low!")
             Count += 1
             if Count == 3:
                 print("Game Over!")
+                print(f"The number to guess was {RandomNumber}")
                 break
         else:
             print("Well done!")
