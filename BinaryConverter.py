@@ -7,4 +7,9 @@ def MathoBinary():
     Number = input("Enter a number: ")
     print(int(Number,base=2))
 
-MathoBinary()    
+
+def Converter():
+    Number = int(input("Enter a number: "))
+    print(bin(Number))
+
+Converter()
