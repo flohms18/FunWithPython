@@ -2,4 +2,9 @@ def BinaryConverter():
     Number = input("Enter a number: ")
     print(bin(int(Number)))
 
-BinaryConverter()
+
+def MathoBinary():
+    Number = input("Enter a number: ")
+    print(int(Number,base=2))
+
+MathoBinary()    
