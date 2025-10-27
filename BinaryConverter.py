@@ -12,4 +12,15 @@ def Converter():
     Number = int(input("Enter a number: "))
     print(bin(Number))
 
-Converter()
+
+def NewConverter():
+    Number = int(input("Enter a number: "))
+    BinaryNumber = ""
+    while Number > 0 :
+        remainder = Number % 2
+        BinaryNumber = str(remainder) + BinaryNumber
+        Number = Number // 2
+    print(BinaryNumber)
+
+NewConverter()
+
